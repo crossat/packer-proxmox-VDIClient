@@ -23,7 +23,6 @@ The following variable are dynamically inserted into the script from the variabl
 
 ### Run Command
 
-At the Terminal run the following command`packer build -var-file="variables.pkrvars.hcl" .`
+At the Terminal run the following command:
 
-## Command Line
-As at Sept 2023, I tried to follow the guides from John and Apalrd and ran into some problems. Below is how I got to a running configuration. In a future iteration of this repository I will aim to make a packer file to automate this installation.
+`packer build -var-file="variables.pkrvars.hcl" .`
