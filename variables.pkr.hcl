@@ -39,3 +39,7 @@ variable "iso_checksum" {
 variable "ssh_username" {
     type = string
 }
+
+variable "nfs_folder" {
+    type = string
+}

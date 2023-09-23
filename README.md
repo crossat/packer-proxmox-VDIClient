@@ -6,8 +6,7 @@ This project was inspired by "apalrd's adventures" Youtube video "Netbooted Prox
 Thanks is extended to John Patten the creator of PVE-VDIClient and without his application (https://github.com/joshpatten/PVE-VDIClient), this project would not have been possible.
 
 ## Todo
-Write the Packer script!
-Change script to copy the apk file to the server rather than open a httpd server
+test run linux
 
 ## Command Line
 As at Sept 2023, I tried to follow the guides from John and Apalrd and ran into some problems. Below is how I got to a running configuration. In a future iteration of this repository I will aim to make a packer file to automate this installation.
