@@ -47,7 +47,7 @@ source "proxmox-iso" "vdiclient" {
     # Select keyboard layout.
     "gb<enter><wait>",
     # Select keyboard Variant.
-    "gb-mac_intl<enter><wait>",
+    "gb<enter><wait>",
     # Setup Timezone
     "setup-timezone -z UTC<enter><wait5s>",
     # Enable community repository.
