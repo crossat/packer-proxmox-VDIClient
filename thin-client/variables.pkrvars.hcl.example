@@ -1,0 +1,9 @@
+proxmox_api_url = "https://xxx.xxx.xxx.xxx:8006/api2/json"  # Your Proxmox IP Address
+proxmox_api_token_id = "your-proxmox-api-token-id-goes-here"  # API Token ID
+proxmox_api_token_secret = "your-proxmox-api-token-secret-goes-here"
+proxmox_node_name = "your-node-name"
+proxmox_node_domain = "local"
+iso_url = "https://releases.ubuntu.com/22.04.3/ubuntu-22.04.3-live-server-amd64.iso"
+iso_checksum = "a4acfda10b18da50e2ec50ccaf860d7f20b389df8765611142305c0e911d16fd"
+ssh_username = "your-username"
+nfs_folder = "path-to-your-nfs-folder"

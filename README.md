@@ -5,6 +5,9 @@ This project was inspired by "apalrd's adventures" Youtube video "Netbooted Prox
 
 Thanks is extended to John Patten the creator of PVE-VDIClient and without his application (https://github.com/joshpatten/PVE-VDIClient), this project would not have been possible.
 
+## Todo
+build out the netboot server
+
 ## Purpose
 The purpose of this package is to use Packer with a Proxmox node to generate a 'thinclient.apkovl.tar.gz' onto a NFS fileshare. Once the file is on the fileshare, it can be copied to a netboot (iPXE) server to allow the VDI Client to be booted onto a ThinClient Hardware.
 
